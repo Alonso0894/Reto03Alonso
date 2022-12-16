@@ -91,3 +91,154 @@ body {
     padding: 20px 55px;
     margin-right: 700px;
 }
+
+.section2{
+    width: 960px;
+    height: 424px;
+    background-color: #9122FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-skills {
+    width: 185px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #26CC4B;
+    margin: 30px;
+}
+
+.skills {
+    display: flex;
+    height: 70%;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.skills1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.barra-html {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-html::after {
+    content: '';
+    position: absolute;
+    width: 319px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.barra-js {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-js::after {
+    content: '';
+    position: absolute;
+    width: 215px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.barra-fx {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-fx::after {
+    content: '';
+    position: absolute;
+    width: 363px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.skills2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.barra-css {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-css::after {
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.barra-vue {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-vue::after {
+    content: '';
+    position: absolute;
+    width: 339px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.barra-grid {
+    background-color: white;
+    width: 403px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra-grid::after {
+    content: '';
+    position: absolute;
+    width: 185px;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
